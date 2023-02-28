@@ -109,14 +109,66 @@ void main() {
   // print(t); //25
 
   //##Conditional Expression
-  var is_login = true;
-  print(is_login ? "Naresh Dhimal" : "Nabin Dhimal"); //Naresh dhimal
+  // var is_login = true;
+  // print(is_login ? "Naresh Dhimal" : "Nabin Dhimal"); //Naresh dhimal
 
-  var a = 15;
-  var b = 14;
-  print(a < b ? "$a is less than $b." : "$a is greater than $b.");
+  // var a = 15;
+  // var b = 14;
+  // print(a < b ? "$a is less than $b." : "$a is greater than $b.");
 
-  var name;
-  var user;
-  print(user = name ?? "Dhimal");
+  // var name;
+  // var user;
+  // print(user = name ?? "Dhimal");
+
+  //##String
+
+  String name = "Naresh";
+  print(name); //Naresh
+
+  String data =
+      'Hi i\'am naresh dhimal. '; //we cannot use single cot inside single cot String
+  print(data); //Hi i'am naresh dhimal.
+
+  String address = """Rampur
+  Urlabari,
+  pathari,
+  hatkhola"""; //for multiple line string use three sinle cot or three double cot
+  print(address);
+
+  //##Expression inside String
+  String detail = "I am Student.";
+  print(detail);
+  print('$detail');
+  print('${detail}');
+  print('${detail.runtimeType}');
+
+  //##String Concatination
+  String a = "Naresh";
+  String b = "Dhimal";
+  print('$a' + ' ' + "$b");
+  print(a + b);
+
+  //Row String
+  String user = 'i am  naresh dhimal. \ni am from urlabari.';
+  print(user); // "\n" used to sperate row
+
+  String user1 = r"i am nabin. \ni am from damak. ";
+  print(
+      user1); // "r" infornt of string that include "\n" used to don't work "\n" properties
+
+  //## String properties and Methods
+  String rank = "Division";
+  print(rank);
+  print(rank.length); //8
+  print(rank.isEmpty); //false
+  print('${rank.isNotEmpty}'); //true
+  print('${rank.toUpperCase()}'); //DIVISION
+  print("${rank.toLowerCase()}"); //division
+  print('${rank.contains("i")}'); //true
+  print("${rank.padLeft(10)}"); //      Division
+  print('${rank.padRight(10)}'); // Division         .
+  print(rank.trim()); // to remove space
+  print(rank.trimLeft()); //remove left most space
+  print(rank.trimRight()); //remove right most space
+  print(rank.split("i")); //[D, v, s , on]
 }
