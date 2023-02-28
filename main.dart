@@ -28,4 +28,15 @@ void main() {
 
   bool is_login = true;
   print(is_login.runtimeType);
+
+  //operater
+  //## Arthimetic
+  var a = 5;
+  int b = 6;
+  print(a + b); //11
+  print(a - b); //-1
+  print(a * b); //30;
+  print(a / b); //0.8333334
+  print(a ~/ b); //0 "gives perfect number"
+  print(a % b); //5 "gives remanider"
 }
