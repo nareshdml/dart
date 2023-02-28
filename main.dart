@@ -15,4 +15,17 @@ void main() {
 
   var $money = 1200;
   print($money);
+
+  //Built-in-Datatype
+  int values = 1000;
+  print(values.runtimeType);
+
+  double result = 12.23;
+  print(result.runtimeType);
+
+  String position = "Manager";
+  print(position.runtimeType);
+
+  bool is_login = true;
+  print(is_login.runtimeType);
 }
