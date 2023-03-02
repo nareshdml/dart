@@ -1,4 +1,5 @@
 //Dart language is started....
+
 void main() {
   // //how dart language is function
   // print("Naresh");
@@ -310,4 +311,85 @@ void main() {
   // print(mp2.values); //(Nabin,12)
   // print(mp2.containsKey("address")); //false
   // print(mp2.containsValue(12)); //true
+
+  //Control flow statement
+  //##If statement
+  /*
+  if (condition) {
+    body;
+  }
+  */
+  // var name = "Naresh";
+  // if (name is String) {
+  //   print("Enter data is String");
+  // }
+
+  // int a = 4;
+  // int b = 5;
+
+  // if (a > b) {
+  //   print("$a is greater than $b.");
+  // }
+
+  // if (a < b) {
+  //   print('$a is smaller than $b.');
+  // }
+  //##If else statement
+  /*
+  if(condition){
+    statement;
+  }else{
+    statement;
+  }
+  */
+  // var m = 25;
+  // if (m is int) {
+  //   print("$m is integer datatype.");
+  // } else {
+  //   print('$m is not integer datatype.');
+  // }
+
+  // int x = 56;
+  // int y = 45;
+  // if (x < 50) {
+  //   print("$x is less than 50.");
+  // } else {
+  //   print("$x is Greater than 50.");
+  // }
+  // if (y < 50) {
+  //   print("$y is less than 50.");
+  // } else {
+  //   print("$y is greater than 50.");
+  // }
+  //##If - esle if - else statement
+
+  /*
+  if(condition){
+    statement;
+  }else if(conditon){
+    statement;
+  }else{
+    stat-ement;
+  }
+
+  */
+  // var name = "Naresh";
+  // if (name is String) {
+  //   print("$name is String Datatype.");
+  // } else if (name is int) {
+  //   print('$name is integer Datatype.');
+  // } else if (name is double) {
+  //   print("$name is double Datatype.");
+  // } else {
+  //   print("$name is boolean Datatype.");
+  // }
+
+  // var i = 45;
+  // if (i < 45) {
+  //   print("$i is less than 45.");
+  // } else if (i > 45) {
+  //   print("$i is greater than 45.");
+  // } else {
+  //   print("$i is equal to 45.");
+  // }
 }
