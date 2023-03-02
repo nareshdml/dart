@@ -263,4 +263,51 @@ void main() {
 
   // print(st3); //{naresh,12}
   // print(st4); //{nabin,dhimal}
+
+  //Map
+  //##Map literal
+  // Map mp = Map();
+  // print(mp.runtimeType); //Map<dynamic,dynmic>
+
+  // Map<dynamic, String> mp1 = {
+  //   'name': 'Naresh',
+  //   12: 'nabin',
+  //   'address': 'Urlabari'
+  // };
+  // print(mp1);
+
+  // var mp2 = {'name': 'Nabin', "Rank": 12};
+  // print(mp2);
+
+  // //##Empty Map
+  // Map<String, int> mp3 = {};
+  // print(mp3);
+
+  // var mp4 = {};
+  // print('${mp4.runtimeType}');
+
+  // //##Add item to Map
+  // mp3['name'] = 12;
+  // mp3['address'] = 342;
+  // print(mp3);
+
+  // mp4['name'] = 'mobile';
+  // mp4['serial number'] = 23123;
+  // print(mp4);
+
+  // //## Accessing Map Elements
+  // print(mp3['name']); //12
+  // print(mp3['address']); // 342
+
+  // print(mp4['name']); //mobile
+  // print(mp4['serial number']); //23123
+
+  // //##Map Properties and Methods
+  // print(mp2.length); //2
+  // print(mp2.isEmpty); //false
+  // print(mp2.isNotEmpty); //true
+  // print(mp2.keys); //(name,rank)
+  // print(mp2.values); //(Nabin,12)
+  // print(mp2.containsKey("address")); //false
+  // print(mp2.containsValue(12)); //true
 }
