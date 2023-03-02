@@ -122,53 +122,113 @@ void main() {
 
   //##String
 
-  String name = "Naresh";
-  print(name); //Naresh
+  // String name = "Naresh";
+  // print(name); //Naresh
 
-  String data =
-      'Hi i\'am naresh dhimal. '; //we cannot use single cot inside single cot String
-  print(data); //Hi i'am naresh dhimal.
+  // String data =
+  //     'Hi i\'am naresh dhimal. '; //we cannot use single cot inside single cot String
+  // print(data); //Hi i'am naresh dhimal.
 
-  String address = """Rampur
-  Urlabari,
-  pathari,
-  hatkhola"""; //for multiple line string use three sinle cot or three double cot
-  print(address);
+  // String address = """Rampur
+  // Urlabari,
+  // pathari,
+  // hatkhola"""; //for multiple line string use three sinle cot or three double cot
+  // print(address);
 
-  //##Expression inside String
-  String detail = "I am Student.";
-  print(detail);
-  print('$detail');
-  print('${detail}');
-  print('${detail.runtimeType}');
+  // //##Expression inside String
+  // String detail = "I am Student.";
+  // print(detail);
+  // print('$detail');
+  // print('${detail}');
+  // print('${detail.runtimeType}');
 
-  //##String Concatination
-  String a = "Naresh";
-  String b = "Dhimal";
-  print('$a' + ' ' + "$b");
-  print(a + b);
+  // //##String Concatination
+  // String a = "Naresh";
+  // String b = "Dhimal";
+  // print('$a' + ' ' + "$b");
+  // print(a + b);
 
-  //Row String
-  String user = 'i am  naresh dhimal. \ni am from urlabari.';
-  print(user); // "\n" used to sperate row
+  // //Row String
+  // String user = 'i am  naresh dhimal. \ni am from urlabari.';
+  // print(user); // "\n" used to sperate row
 
-  String user1 = r"i am nabin. \ni am from damak. ";
-  print(
-      user1); // "r" infornt of string that include "\n" used to don't work "\n" properties
+  // String user1 = r"i am nabin. \ni am from damak. ";
+  // print(
+  //     user1); // "r" infornt of string that include "\n" used to don't work "\n" properties
 
-  //## String properties and Methods
-  String rank = "Division";
-  print(rank);
-  print(rank.length); //8
-  print(rank.isEmpty); //false
-  print('${rank.isNotEmpty}'); //true
-  print('${rank.toUpperCase()}'); //DIVISION
-  print("${rank.toLowerCase()}"); //division
-  print('${rank.contains("i")}'); //true
-  print("${rank.padLeft(10)}"); //      Division
-  print('${rank.padRight(10)}'); // Division         .
-  print(rank.trim()); // to remove space
-  print(rank.trimLeft()); //remove left most space
-  print(rank.trimRight()); //remove right most space
-  print(rank.split("i")); //[D, v, s , on]
+  // //## String properties and Methods
+  // String rank = "Division";
+  // print(rank);
+  // print(rank.length); //8
+  // print(rank.isEmpty); //false
+  // print('${rank.isNotEmpty}'); //true
+  // print('${rank.toUpperCase()}'); //DIVISION
+  // print("${rank.toLowerCase()}"); //division
+  // print('${rank.contains("i")}'); //true
+  // print("${rank.padLeft(10)}"); //      Division
+  // print('${rank.padRight(10)}'); // Division         .
+  // print(rank.trim()); // to remove space
+  // print(rank.trimLeft()); //remove left most space
+  // print(rank.trimRight()); //remove right most space
+  // print(rank.split("i")); //[D, v, s , on]
+
+  //List
+  //##Fixed length
+  List lst = new List.filled(3, 0);
+  lst[0] = 21;
+  lst[1] = 12;
+  print(lst); //[21,12,0]
+  print(lst[0]); //[21]
+  print(lst[1]); //[12];
+  print(lst[2]); //[0]
+
+  //##Growable list
+  List lst1 = ['naresh', "dhimal", 12];
+
+  print(lst1);
+
+  List lst2 = <int>[12, 31, 43];
+  print(lst2);
+
+  //##Accessing the list element
+  List lst3 = ['naresh ', 12];
+  print(lst3[0]);
+  print(lst3[1]);
+
+  //##Insert List into Another List - Spread Operator
+  List lst4 = ["naresh", "nabin"];
+  List lst5 = [12, 31];
+  List lst6 = [...lst4, ...lst5];
+  print(lst6);
+
+  List lst7 = [...lst1, ...lst2];
+  print(lst7);
+
+  //##Empty List and add() Method
+  List lst8 = [];
+  lst8.add('naresh');
+  lst8.add(22);
+  lst8.add(89);
+  lst8.add('dhimal');
+  print(lst8);
+  print('${lst8.runtimeType}');
+
+  //##List properties and method
+  List lst9 = [12, 'naresh', 45];
+  print(lst9.length); //3
+  print(lst9.isEmpty); //false
+  print(lst9.isNotEmpty); //true
+  print(lst9.reversed); //(45,naresh,12)
+  print(lst9.first); //[12]
+  print(lst9.last); //[45]
+
+  print(lst9);
+  lst9.remove('naresh');
+  print(lst9); //[12,45];
+
+  lst9.removeAt(1);
+  print(lst9); //[12]
+
+  lst1.removeLast();
+  print(lst1); //[naresh , dhimal]
 }
