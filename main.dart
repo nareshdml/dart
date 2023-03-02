@@ -174,61 +174,93 @@ void main() {
 
   //List
   //##Fixed length
-  List lst = new List.filled(3, 0);
-  lst[0] = 21;
-  lst[1] = 12;
-  print(lst); //[21,12,0]
-  print(lst[0]); //[21]
-  print(lst[1]); //[12];
-  print(lst[2]); //[0]
+  // List lst = new List.filled(3, 0);
+  // lst[0] = 21;
+  // lst[1] = 12;
+  // print(lst); //[21,12,0]
+  // print(lst[0]); //[21]
+  // print(lst[1]); //[12];
+  // print(lst[2]); //[0]
 
-  //##Growable list
-  List lst1 = ['naresh', "dhimal", 12];
+  // //##Growable list
+  // List lst1 = ['naresh', "dhimal", 12];
 
-  print(lst1);
+  // print(lst1);
 
-  List lst2 = <int>[12, 31, 43];
-  print(lst2);
+  // List lst2 = <int>[12, 31, 43];
+  // print(lst2);
 
-  //##Accessing the list element
-  List lst3 = ['naresh ', 12];
-  print(lst3[0]);
-  print(lst3[1]);
+  // //##Accessing the list element
+  // List lst3 = ['naresh ', 12];
+  // print(lst3[0]);
+  // print(lst3[1]);
 
-  //##Insert List into Another List - Spread Operator
-  List lst4 = ["naresh", "nabin"];
-  List lst5 = [12, 31];
-  List lst6 = [...lst4, ...lst5];
-  print(lst6);
+  // //##Insert List into Another List - Spread Operator
+  // List lst4 = ["naresh", "nabin"];
+  // List lst5 = [12, 31];
+  // List lst6 = [...lst4, ...lst5];
+  // print(lst6);
 
-  List lst7 = [...lst1, ...lst2];
-  print(lst7);
+  // List lst7 = [...lst1, ...lst2];
+  // print(lst7);
 
-  //##Empty List and add() Method
-  List lst8 = [];
-  lst8.add('naresh');
-  lst8.add(22);
-  lst8.add(89);
-  lst8.add('dhimal');
-  print(lst8);
-  print('${lst8.runtimeType}');
+  // //##Empty List and add() Method
+  // List lst8 = [];
+  // lst8.add('naresh');
+  // lst8.add(22);
+  // lst8.add(89);
+  // lst8.add('dhimal');
+  // print(lst8);
+  // print('${lst8.runtimeType}');
 
-  //##List properties and method
-  List lst9 = [12, 'naresh', 45];
-  print(lst9.length); //3
-  print(lst9.isEmpty); //false
-  print(lst9.isNotEmpty); //true
-  print(lst9.reversed); //(45,naresh,12)
-  print(lst9.first); //[12]
-  print(lst9.last); //[45]
+  // //##List properties and method
+  // List lst9 = [12, 'naresh', 45];
+  // print(lst9.length); //3
+  // print(lst9.isEmpty); //false
+  // print(lst9.isNotEmpty); //true
+  // print(lst9.reversed); //(45,naresh,12)
+  // print(lst9.first); //[12]
+  // print(lst9.last); //[45]
 
-  print(lst9);
-  lst9.remove('naresh');
-  print(lst9); //[12,45];
+  // print(lst9);
+  // lst9.remove('naresh');
+  // print(lst9); //[12,45];
 
-  lst9.removeAt(1);
-  print(lst9); //[12]
+  // lst9.removeAt(1);
+  // print(lst9); //[12]
 
-  lst1.removeLast();
-  print(lst1); //[naresh , dhimal]
+  // lst1.removeLast();
+  // print(lst1); //[naresh , dhimal]
+
+  //Set
+  // Set st = {'naresh', 12};
+  // print(st); //{naresh,12}
+
+  // Set st1 = <int>{12, 23, 34};
+  // print(st1);
+  // print('${st1.runtimeType}'); //Set<int>
+
+  // Set st2 = <String>{'nabin', 'rohit'};
+  // print(st2);
+  // print(st2.runtimeType); //Set<String>
+
+  // //##Empty Set
+  // Set st3 = {};
+  // print(st3.runtimeType);
+
+  // var st4 = <String>{};
+  // print(st4.runtimeType);
+
+  // var st5 = Set();
+  // print(st5.runtimeType);
+
+  // //##Add item to Set
+  // st3.add('naresh');
+  // st3.add(12);
+
+  // st4.add('nabin');
+  // st4.add('dhimal');
+
+  // print(st3); //{naresh,12}
+  // print(st4); //{nabin,dhimal}
 }
