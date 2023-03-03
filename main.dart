@@ -521,4 +521,55 @@ void main() {
   // //forEach loop list with map
   // var intro = ['name', "rank", "address"];
   // intro.asMap().forEach((a, b) => print("index = $a Values = $b"));
+
+  //Break and continue
+  //##Break
+  // var name = "naresh";
+  // int i = 0;
+  // while (name is String) {
+  //   if (i > 5) {
+  //     print("Data fetching is completed....");
+  //     break;
+  //   }
+  //   print("Data is fetching...$i");
+  //   i++;
+  // }
+
+  // var data = true;
+  // var j = 0;
+  // do {
+  //   print("data is colleting...$j");
+  //   j++;
+  //   if (j > 5) {
+  //     print("data collecting is completed...");
+  //     break;
+  //   }
+  // } while (data);
+
+  // //##continue
+  // var n = 10;
+  // int m = 0;
+  // for (m; m < n; m++) {
+  //   if (m == 5) {
+  //     print("data deleting continue...");
+  //     continue;
+  //   }
+  //   print("data deleting...$m");
+  // }
+
+  // var rank = 12;
+  // var y = 0;
+  // do {
+  //   print("Data is removing....$y");
+
+  //   if (y > 10) {
+  //     print("Data removing is completed.... at $y");
+  //     break;
+  //   }
+  //   y++;
+  //   if (y == 5) {
+  //     print("Data removing continue reaching.....$y");
+  //     continue;
+  //   }
+  // } while (rank is int);
 }
