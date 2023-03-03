@@ -392,4 +392,59 @@ void main() {
   // } else {
   //   print("$i is equal to 45.");
   // }
+
+  //Loop
+  //##For loop
+  /*
+  for(innitialization; condition; increment/decrement){
+    statement;
+  }
+  */
+  // List lst = ['Naresh', 'Nabin', 12];
+  // for (var i = 0; i < lst.length; i++) {
+  //   print(lst[i]);
+  // }
+
+  // int n = 5;
+  // for (var i = 1; i <= n; i++) {
+  //   // print(i);
+  //   print("My name is NareshDhimal.");
+  // }
+
+  //##While Loop
+  /*
+  while(condition){
+    statement;
+  } 
+  */
+  // var m = 5;
+  // var j = 1;
+  // while (j <= m) {
+  //   print("I am from urlabari.");
+  //   j++;
+  // }
+
+  // var name = "Naresh";
+  // while (name is String) {
+  //   print("Enter data is String."); //infinate loop don't run it
+  // }
+
+  //##Do-While Loop
+  /*
+  do{
+    statement;
+  }while(condition);
+   */
+  // var x = 1;
+  // do {
+  //   print("My name is NareshDhimal. I am from Urlabari.");
+  //   x++;
+  // } while (x <= 5);
+
+  // List lst1 = ["nabin", 12, "rohit"];
+  // int y = 0;
+  // do {
+  //   print("${lst1[y]}");
+  //   y++;
+  // } while (y < lst1.length);
 }
