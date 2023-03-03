@@ -492,4 +492,33 @@ void main() {
   // for (var su in user.values) {
   //   print(su);
   // }
+
+  //##forEach loop
+  /*
+  datatype.forEach((element)=>print(element));
+   */
+  //List
+  // List detail = ["name", "rank", "address"];
+  // detail.forEach((det) => print(det));
+
+  // List product = ["mobile", "watch", "laptop"];
+  // product.forEach((pro) => print(pro));
+
+  // //Set
+  // Set number = {1, 2, 3, 4, 5};
+  // number.forEach((numb) => print('$numb'));
+
+  // Set data = {"naresh", 12, "urlabari"};
+  // data.forEach((dat) => print(dat));
+
+  // //Map
+  // Map<String, int> product1 = {"mobile": 12, "laptop": 23};
+  // product1.forEach((a, b) => print("keys = $a\nvalues = $b"));
+
+  // Map info = {"name": "address", "rank": 12};
+  // info.forEach((a, b) => print(a + '=' + '$b'));
+
+  // //forEach loop list with map
+  // var intro = ['name', "rank", "address"];
+  // intro.asMap().forEach((a, b) => print("index = $a Values = $b"));
 }
