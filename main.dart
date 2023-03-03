@@ -411,6 +411,13 @@ void main() {
   //   print("My name is NareshDhimal.");
   // }
 
+  //accessing set using list properties
+  // Set detail1 = {"jojo", "fury", "ditto"};
+  // var det = detail1.toList();
+  // for (var i = 0; i < det.length; i++) {
+  //   print(det[i]);
+  // }
+
   //##While Loop
   /*
   while(condition){
@@ -447,4 +454,42 @@ void main() {
   //   print("${lst1[y]}");
   //   y++;
   // } while (y < lst1.length);
+
+  //##For-In loop
+  /*
+  for (var element in collection) {
+    statement;
+  }
+   */
+  //##list
+
+  // List lst = ["Naresh", 12, "ulabari"];
+  // for (var l in lst) {
+  //   print(l);
+  // }
+
+  // List detail = ["name", "rank", 'address'];
+  // for (var det in detail) {
+  //   print(det);
+  // }
+
+  // //##Set
+  // Set product = {"mobile", "laptop", "watch"};
+  // for (var prod in product) {
+  //   print(prod);
+  // }
+
+  // Set interest = {'playing', 'travelling', "swimming"};
+  // for (var inte in interest) {
+  //   print(inte);
+  // }
+
+  // //##Map
+  // Map user = {"name": "adina", "rank": 12, "address": "urlabari"};
+  // for (var us in user.keys) {
+  //   print(us);
+  // }
+  // for (var su in user.values) {
+  //   print(su);
+  // }
 }
