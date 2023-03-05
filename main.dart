@@ -699,4 +699,25 @@ void main() {
   // }
 
   // print(showDiv());
+
+  //##Positional Parameter
+  // myDetail({a, b}) {
+  //   print("name : $a\naddress : $b");
+  // }
+
+  // myDetail(b: "Urlabari", a: "Naresh");
+
+  // myAdd({a, b}) {
+  //   int d1 = a;
+  //   int d2 = b;
+  //   return "The sum of $d1 and $d2 is ${d1 + d2}";
+  // }
+
+  // print(myAdd(b: 12, a: 12));
+
+  // mydata(String a, {b, c}) {
+  //   print("Name : $a\nAddress : $b\nRank : $c");
+  // }
+
+  // mydata("Naresh", c: 12, b: "Urlabari");
 }
