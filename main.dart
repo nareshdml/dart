@@ -641,4 +641,62 @@ void main() {
   // print(showDetail());
   // var detail = showDetail();
   // print(detail);
+
+  // //##Function with parameter
+  // myDetail(a, b) {
+  //   print("Name : $a\nRank : $b");
+  // }
+
+  // int rank = 32;
+  // String name = "NareshDhimal";
+  // myDetail(name, rank);
+
+  // addData(int m, int n) {
+  //   var x = m + n;
+  //   print("The sum of $m and $n is $x.");
+  // }
+
+  // addData(12, 13);
+
+  // showDetail(String x, int y) {
+  //   var name = x;
+  //   var value = y;
+  //   print("Product name : $name\nProduct value : $value");
+  // }
+
+  // showDetail("Mobile", 120);
+
+  // showAdd(int a, int b) {
+  //   return a + b;
+  // }
+
+  // showAdd(12, 12);
+  // print(showAdd(12, 12));
+
+  // showMul(int a, int b) {
+  //   int d1 = a;
+  //   int d2 = b;
+  //   return d1 * d2;
+  // }
+
+  // var result = showMul(5, 6);
+  // print("The multiplicataion is $result");
+
+  // showOperation(int a, int b) {
+  //   int d1 = a;
+  //   int d2 = b;
+  //   return d1 - d2;
+  // }
+
+  // int data1 = 50;
+  // int data2 = 40;
+  // print(showOperation(data1, data2));
+
+  // showDiv() {
+  //   int a = 60;
+  //   int b = 5;
+  //   return "The division of $a and $b is ${a ~/ b}";
+  // }
+
+  // print(showDiv());
 }
