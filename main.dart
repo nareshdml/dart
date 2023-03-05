@@ -748,4 +748,30 @@ void main() {
 
   // print(add(12)); //Please enter second data...
   // print(add(12, 23)); //The sum of 12 and 23 is 35
+
+  // //##Default Value Parameter
+  // add(a, [b = 5]) {
+  //   print("The sum of $a and $b is ${a + b}.");
+  // }
+
+  // add(5); //The sum of  5 is 5 is 10.
+  // add(5, 6); //The sum of 5 and 6 is 11.
+
+  // myDetail(String name, [address = "Nepal"]) {
+  //   var first_name = name;
+  //   var first_address = address;
+  //   print("Name : $first_name\nAddress : $first_address");
+  // }
+
+  // myDetail("Naresh"); //Name : Naresh \n Address : Nepal
+  // myDetail("Rohit", "urlabari"); //Name : Rohit \n Address : urlabari
+
+  // show(name, [rank = 12]) {
+  //   print("Name : $name \nRank : $rank");
+  // }
+
+  // String n = "Nabin";
+  // int m = 1;
+  // show(n); //Name : Nabin \n Rank : 12;
+  // show(n, m); //Name : Nabin \n Rank : 1;
 }
