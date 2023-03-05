@@ -795,4 +795,46 @@ void main() {
   // int x = 6;
   // String z = showAdd(x, c: 4, b: 5);
   // print(z);
+
+  //## Anonymous Function
+  /*
+  (){
+    statement;
+  }
+  */
+  // List lst = [1, 2, "Naresh"];
+  // lst.asMap().forEach((index, value) {
+  //   print("value = $value");
+  //   print("Index = $index");
+  // });
+
+  // Set st = {"naresh", "nabin", "rohit"};
+  // st.add("mohit");
+  // st.forEach((value) {
+  //   print("Values : $value");
+  // });
+
+  // Map<String, int> product = {"mobile": 12};
+  // product["laptop"] = 123;
+  // print("The key and value of product.\nName     value");
+  // product.forEach((key, value) {
+  //   print("$key = $value");
+  // });
+
+  // //##Arrow function
+  // /*
+  // () => statement;
+
+  //  */
+  // List lst = [1, 2, "Naresh"];
+  // lst.asMap().forEach((index, value) => print("$index = $value"));
+
+  // Set st = {"naresh", "nabin", "rohit"};
+  // st.add("mohit");
+  // st.forEach((value) => print("Name : $value"));
+
+  // Map<String, int> product = {"mobile": 12};
+  // product["laptop"] = 123;
+  // print("The key and value of product.\nName     value");
+  // product.forEach((key, value) => print("$key = $value"));
 }
