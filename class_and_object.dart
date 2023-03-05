@@ -11,6 +11,7 @@ creating class object
 datatype object_name = class_name();
  */
 
+//##Instance variable and Instance method
 class Detail {
   //declering instance variable
   var name = "Naresh Dhimal";
@@ -38,6 +39,12 @@ class Operation {
   }
 }
 
+class Data {
+  show(name, address) {
+    print("Name : $name\nAddress : $address");
+  }
+}
+
 void main() {
   //creating an object of class
   var detail = Detail();
@@ -54,10 +61,33 @@ void main() {
 
   var student2 = Data();
   student2.show("Rahul", "Damak");
+
+  //Accessing static variable and method
+  var det = Product();
+  Product.show();
+  print(Product.number);
+
+  //Accessing static method
+  print(Info.display("Naresh Dhimal"));
+  print("${Info.display("Sweeti Dhimal", "Damak")}");
 }
 
-class Data {
-  show(name, address) {
-    print("Name : $name\nAddress : $address");
+//##Static variable and Static method
+class Product {
+  //static variable
+  static int number = 25;
+
+  //static method
+  static show() {
+    print(number);
+  }
+}
+
+class Info {
+  static display(name, [address]) {
+    if (address != null) {
+      return "My name is $name and i am from $address. ";
+    }
+    return "My name is $name";
   }
 }
