@@ -774,4 +774,25 @@ void main() {
   // int m = 1;
   // show(n); //Name : Nabin \n Rank : 12;
   // show(n, m); //Name : Nabin \n Rank : 1;
+
+  // //##Named Parameter
+  // show({a, b}) {
+  //   print(a + b);
+  // }
+
+  // show(b: 13, a: 12);
+
+  // detail({name, address}) {
+  //   print(name + " " + address);
+  // }
+
+  // detail(address: "Urlabari", name: "NareshDhimal");
+
+  // showAdd(a, {b, c}) {
+  //   return "The sum of $a, $b and $c is ${a + b + c}";
+  // }
+
+  // int x = 6;
+  // String z = showAdd(x, c: 4, b: 5);
+  // print(z);
 }
