@@ -574,44 +574,71 @@ void main() {
   // } while (rank is int);
 
   //Switch and case
-  List operation = ['add', 'sub', 'mul', 'div'];
-  print(operation);
-  var operations = 'add';
-  // var i = 0;
-  var a = 8;
-  var b = 4;
-  switch (operations) {
-    case 'add':
-      var c = a + b;
-      print("Addition of $a and $b is $c.");
-      break;
+  // List operation = ['add', 'sub', 'mul', 'div'];
+  // print(operation);
+  // var operations = 'add';
+  // // var i = 0;
+  // var a = 8;
+  // var b = 4;
+  // switch (operations) {
+  //   case 'add':
+  //     var c = a + b;
+  //     print("Addition of $a and $b is $c.");
+  //     break;
 
-    case 'sub':
-      var m = a - b;
-      print("Subtraction of $a and $b is $m.");
-      break;
-    case 'mul':
-      var n = a * b;
-      print("Multiplilcation of $a and $b is $n..");
-      break;
-    case 'div':
-      var d = a / b;
-      print("Divisio of $a and $b is $d.");
-      break;
-    default:
-      print("Invalid operaation...");
-      break;
-  }
+  //   case 'sub':
+  //     var m = a - b;
+  //     print("Subtraction of $a and $b is $m.");
+  //     break;
+  //   case 'mul':
+  //     var n = a * b;
+  //     print("Multiplilcation of $a and $b is $n..");
+  //     break;
+  //   case 'div':
+  //     var d = a / b;
+  //     print("Divisio of $a and $b is $d.");
+  //     break;
+  //   default:
+  //     print("Invalid operaation...");
+  //     break;
+  // }
 
-  String name = "naresh";
-  switch (name) {
-    case "naresh":
-      print("$name is my first name.");
-      break;
-    case 'nabin':
-      print("$name is my first name.");
-      break;
-    default:
-      print("name not found...");
-  }
+  // String name = "naresh";
+  // switch (name) {
+  //   case "naresh":
+  //     print("$name is my first name.");
+  //     break;
+  //   case 'nabin':
+  //     print("$name is my first name.");
+  //     break;
+  //   default:
+  //     print("name not found...");
+  // }
+
+  // //Function
+  // //Function without parameter
+  // myfun() {
+  //   print("hello world"); //hello world
+  // }
+
+  // myfun();
+
+  // addfun() {
+  //   var a = 5;
+  //   int b = 6;
+  //   print(a + b); //11
+  // }
+
+  // addfun();
+
+  // showDetail() {
+  //   String name = "Naresh";
+  //   int rank = 12;
+  //   return "Name : $name\nRank : $rank";
+  // }
+
+  // showDetail();
+  // print(showDetail());
+  // var detail = showDetail();
+  // print(detail);
 }
