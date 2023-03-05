@@ -720,4 +720,32 @@ void main() {
   // }
 
   // mydata("Naresh", c: 12, b: "Urlabari");
+
+  // //##Optional positional parameter
+  // myDetail(name, [address]) {
+  //   print("My name is $name and i am from $address");
+  // }
+
+  // myDetail("naresh"); //My name is naresh and i am from null..
+  // myDetail("Nabin", "Urlabari"); //My name is Nabin and i am from urlabari..
+
+  // mydata(String a, {b, c}) {
+  //   print("Name : $a\nAddress : $b\nRank : $c");
+  // }
+
+  // mydata("Naresh"); // Name : Naresh \n Address : null \n Rank : null
+  // mydata("Naresh",
+  //     c: 12, b: "Urlabari"); //Name : Naresh \n Address : Urlabari \n Rank : 12
+
+  // add(int a, [b]) {
+  //   int d1 = a;
+  //   var d2 = b;
+  //   if (b != null) {
+  //     return "The sum of $d1 and $d2 is ${d1 + d2}";
+  //   }
+  //   return "Please enter second data...";
+  // }
+
+  // print(add(12)); //Please enter second data...
+  // print(add(12, 23)); //The sum of 12 and 23 is 35
 }
