@@ -91,4 +91,46 @@ void main() {
   print(data.div()); //2.0
 
   print(data.mulList()); //540
+
+  var hauwei = Product("hauwei", 978);
+  var lenovo = Product.display("levo", 123);
+  lenovo.show();
+  hauwei.show();
+
+  var number = Cal.additon(25, 35);
+}
+
+//Named construciton
+/*
+class_name.construction_name(){
+  statement;
+}
+ */
+
+class Product {
+  var name;
+  var seril_id;
+  var memo;
+  var data;
+  Product(this.name, this.seril_id) {}
+
+  Product.display(name_id, ser_id) {
+    this.memo = name_id;
+    this.data = ser_id;
+  }
+  show() {
+    print("construction called...");
+    print(name);
+    print(seril_id);
+    print("Named construction called...");
+    print(memo);
+    print(data);
+  }
+}
+
+class Cal {
+  Cal.additon(m, n) {
+    print("Name construction is called...");
+    print("The additon of $m  and $n is ${m + n}.");
+  }
 }
