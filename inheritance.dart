@@ -25,4 +25,5 @@ void main() {
   var value = Operation();
   value.getValues(12, 13);
   value.showAdd();
+  print(value.mul_by);
 }
