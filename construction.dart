@@ -1,7 +1,7 @@
-//construction
+//constructor
 /*
 class_name(){
-  construction body;
+  constructor body;
 }
  */
 class Detail {
@@ -47,7 +47,7 @@ class Operation {
   List lst = [2, 5, 6, 9];
   int mul = 1;
 
-  //Construction
+  //Constructor
   Operation(this.data1, this.data2) {}
 
   add() {
@@ -100,9 +100,9 @@ void main() {
   var number = Cal.additon(25, 35);
 }
 
-//Named construciton
+//Named constructor
 /*
-class_name.construction_name(){
+class_name.constructor_name(){
   statement;
 }
  */
@@ -119,10 +119,10 @@ class Product {
     this.data = ser_id;
   }
   show() {
-    print("construction called...");
+    print("constructor called...");
     print(name);
     print(seril_id);
-    print("Named construction called...");
+    print("Named constructor called...");
     print(memo);
     print(data);
   }
@@ -130,7 +130,7 @@ class Product {
 
 class Cal {
   Cal.additon(m, n) {
-    print("Name construction is called...");
+    print("Name constructor is called...");
     print("The additon of $m  and $n is ${m + n}.");
   }
 }
