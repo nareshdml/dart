@@ -18,4 +18,13 @@ void main() {
   } catch (e) {
     print(e);
   }
+
+  //try on catch
+  try {
+    var c = 12 ~/ 0;
+    print(c);
+  } on IntegerDivisionByZeroException catch (e) {
+    print(e);
+    print("Can not divided by zero.");
+  }
 }
