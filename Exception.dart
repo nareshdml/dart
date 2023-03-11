@@ -27,4 +27,13 @@ void main() {
     print(e);
     print("Can not divided by zero.");
   }
+
+  try {
+    int res = 23 ~/ 0;
+    print(res);
+  } on IntegerDivisionByZeroException catch (e) {
+    print("$e");
+  } finally {
+    print("Always accessing...");
+  }
 }
